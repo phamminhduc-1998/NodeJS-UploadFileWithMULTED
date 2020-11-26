@@ -1,0 +1,62 @@
+Buoc 1: git init de tao 1 repository 
+buoc 2: git status de xem trang thai cua file/ neu add roi thi sang buoc 5 khong thi lam buoc 3
+buoc 3: git add "file" de add file 
+buoc 4: git status lai de xem trang thai cua file
+buoc 5: git commit -m"commit" khi file da san sang 
+buoc 6: git log de kiem tra 
+buoc 7: git remote add origin duong dan vao git de dong do tu may len may chu
+buoc 8: git push -u origin master push len github
+
+
+sau khi them 1 file moi vao project
+buoc 9: git add . se add toan bo file 
+buoc 10: git commit de luu thay doi 
+buoc 11: gp de push len github
+
+
+// dong bo code tren github ve may
+
+buoc 12: git pull
+buoc 13: git log de kiem tra
+
+// neu nhieu nguoi sua cung 1 file thi se gap loi
+// minh phai git pull truoc 
+// va chon Accept Current Change la chon code trong may minh, Accept Incoming Change la chon code tren git
+sau do git add va git commit cuoi cung gp len github
+
+
+
+
+…or create a new repository on the command line
+echo "# TestGithubVisualStudioCode" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/phamminhduc-1998/Unity-Game3D.git      
+git push -u origin main
+                
+…or push an existing repository from the command line
+git remote add origin https://github.com/phamminhduc-1998/TestGithubVisualStudioCode.git
+git branch -M main
+git push -u origin main
+
+
+// Để đồng bộ code trên github về máy 
+git pull
+
+//Để đẩy code lên lại
+git add . 
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/phamminhduc-1998/Unity-Game3D.git
+git push -u origin main
+
+//Để lấy code trên Project có sẵn 
+git clone https://github.com/phamminhduc-1998/TestGithubVisualStudioCode.git
+cd TestGithubVisualStudioCode
+ls
+
+thế là file đã được clone về máy rồi
+
+
